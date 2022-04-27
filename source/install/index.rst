@@ -44,12 +44,5 @@ Uninstall Instructions
 
 To uninstall |PSMDB|, see :ref:`uninstall`.
 
-.. toctree::
-   :hidden:
-
-   Install on Debian or Ubuntu <apt>
-   Install on RHEL or CentOS <yum>
-   Install from Binary Tarball <tarball>
-   Run in a Docker Container <docker>
 
 .. include:: ../.res/url.txt

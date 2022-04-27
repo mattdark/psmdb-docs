@@ -14,6 +14,8 @@ It requires no changes to MongoDB applications or code.
    ``psmdbVersion`` key in the output of the `buildInfo <https://docs.mongodb.com/manual/reference/command/buildInfo/#dbcmd.buildInfo>`_ database command. If
    this key does not exist, |PSMDB| is not installed on the server.
 
+Features
+=====================
 
 |PSMDB| provides the following features:
 
@@ -29,34 +31,33 @@ It requires no changes to MongoDB applications or code.
 
 To learn more about the features, available in |PSMDB|, see :ref:`compare`
 
---------------------------------------------------------------------------------
 
-About Percona Server for MongoDB
-================================================================================
 
 .. toctree::
+   :hidden:
+   :caption: About Percona Server for MongoDB
    :maxdepth: 1
 
    Feature Comparison <comparison>
 
-Installation
-================================================================================
-
 .. toctree::
-   :maxdepth: 2
-   :includehidden:
-   :titlesonly:
+   :hidden:
+   :caption: Installation
+   :maxdepth: 1
 
    install/index
+   Install on Debian or Ubuntu <install/apt>
+   Install on RHEL or CentOS <install/yum>
+   Install from Binary Tarball <install/tarball>
+   Run in a Docker Container <install/docker>
    
 
-Features
-================================================================================
 
 .. toctree::
-   :maxdepth: 2
-   :includehidden:
-   :titlesonly:
+   :hidden:
+   :caption: Features
+   :maxdepth: 1
+   
 
    inmemory
    hot-backup
@@ -66,12 +67,15 @@ Features
    audit-logging
    log-redaction
    data-at-rest-encryption
+   vault
+   keyfile
+   encryption-mode-switch
+   kmip
    ngram-full-text-search
 
-How to
-================================================================================
-
 .. toctree::
+   :hidden:
+   :caption: How to
    :maxdepth: 1
 
    Enable authentication <enable-auth>
@@ -84,18 +88,18 @@ How to
    Perform a major upgrade of Percona Server for MongoDB from 4.4 to 5.0 <install/upgrade-from-44>
    Uninstall Percona Server for MongoDB <install/uninstall>
 
-Release Notes
-================================================================================
 
 .. toctree::
+   :hidden:
+   :caption: Release notes
    :maxdepth: 1
 
    release_notes/index
 
-Reference
-================================================================================
 
 .. toctree::
+   :hidden:
+   :caption: Reference
    :maxdepth: 1
 
    contact

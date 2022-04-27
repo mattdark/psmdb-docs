@@ -33,14 +33,6 @@ Note that you can use only one of the key management options at a time. However,
 
    You can only enable data at rest encryption and provide all encryption settings on an empty database, when you start the ``mongod`` instance for the first time. You cannot enable or disable encryption while the |PSMDB| server is already running and / or has some data. Nor can you change the effective encryption mode by simply restarting the server. Every time you restart the server, the encryption settings must be the same.
 
-.. toctree::
-   :hidden:
-
-   vault
-   keyfile
-   encryption-mode-switch
-   kmip
-
 .. rubric:: Important Configuration Options
 
 |PSMDB| supports the ``encryptionCipherMode`` option where you choose one of the following cipher modes:

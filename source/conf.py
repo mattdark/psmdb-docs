@@ -30,7 +30,8 @@ sys.path.append(os.path.abspath('ext'))
 extensions = ['sphinx.ext.intersphinx', 'sphinx.ext.todo', 
               'sphinx.ext.coverage', 'sphinx.ext.ifconfig', 
               'sphinx.ext.extlinks', 'sphinx_gitstamp', 
-              'sphinx_copybutton', 'sphinx_tabs.tabs', 'tab_or_note']
+              'sphinx_copybutton', 'sphinx_tabs.tabs', 
+              'tab_or_note']
 
 #Extensions Configuration
 #gitstamp format
@@ -153,6 +154,7 @@ html_theme_options = {
     'color_primary': 'orange',
     'google_analytics_account': 'UA-343802-3',
     'globaltoc_collapse': True,
+    'globaltoc_includehidden': True,
     'version_dropdown': True,
     'version_dropdown_text': 'Versions',
     'version_info': {
@@ -169,6 +171,7 @@ html_theme_options = {
 html_context = {
    'edit_uri': 'edit/5.0/source'
 }
+
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = ['.', './percona-theme']
 
