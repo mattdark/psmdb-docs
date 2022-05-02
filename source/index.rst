@@ -1,5 +1,6 @@
 .. _dochome:
 
+
 ================================================================================
 Percona Server for MongoDB |version| Documentation
 ================================================================================
@@ -14,8 +15,7 @@ It requires no changes to MongoDB applications or code.
    ``psmdbVersion`` key in the output of the `buildInfo <https://docs.mongodb.com/manual/reference/command/buildInfo/#dbcmd.buildInfo>`_ database command. If
    this key does not exist, |PSMDB| is not installed on the server.
 
-Features
-=====================
+.. rubric:: Features
 
 |PSMDB| provides the following features:
 
@@ -92,7 +92,7 @@ To learn more about the features, available in |PSMDB|, see :ref:`compare`
 .. toctree::
    :hidden:
    :caption: Release notes
-   :maxdepth: 1
+   :maxdepth: 2
 
    release_notes/index
 
