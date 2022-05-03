@@ -32,13 +32,14 @@ It requires no changes to MongoDB applications or code.
 To learn more about the features, available in |PSMDB|, see :ref:`compare`
 
 
-
 .. toctree::
    :hidden:
    :caption: About Percona Server for MongoDB
    :maxdepth: 1
 
    Feature Comparison <comparison>
+
+
 
 .. toctree::
    :hidden:
