@@ -4,7 +4,7 @@
 *Percona Server for MongoDB* 6.0.2-1
 ================================================================================
 
-:Date: October , 2022
+:Date: October 27, 2022
 :Installation: `Installing Percona Server for MongoDB <https://www.percona.com/doc/percona-server-for-mongodb/6.0/install/index.html>`_
 
 
